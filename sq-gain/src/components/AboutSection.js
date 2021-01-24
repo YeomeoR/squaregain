@@ -16,19 +16,19 @@ const AboutSection = () => {
       <StyledDescription>
         <div className="title">
           <img src={logo3} alt=""/>
-          <h2>
+          <h3>
             Advantage Through <span>Sustainability</span>
-          </h2>
+          </h3>
 
-          <h2>
+          <h3>
             <span>Zero</span>-Carbon
-          </h2>
+          </h3>
 
-          <h2>Sustainable Finance</h2>
+          <h3>Sustainable Finance</h3>
 
-          <h2>Wellbeing</h2>
+          <h3>Wellbeing</h3>
 
-          <h2>Supply Chain</h2>
+          <h3>Supply Chain</h3>
         </div>
         {/* <p>
             We are a sustainability consultancy focused on the built

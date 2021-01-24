@@ -1,14 +1,17 @@
+//routing
+import { Link } from 'react-router-dom'
 import styled from 'styled-components';
 
 const Nav = () => {
   return (
     <StyledNav>
       <ul>
-        <li>About Us</li>
-        <li>Services</li>
-        <li>Contact Us</li>
+        <Link to='/'><li>About Us</li></Link>
+        <Link to='/services'><li>Services</li></Link>
+        <Link to='/projects'><li>Projects</li></Link>
+        <Link to='/clients'><li>Our Clients</li></Link>
           </ul>
-          <h1>Square Gain</h1>
+          <Link to='/'><h1 id="logo"><em>Square Gain</em></h1></Link>
     </StyledNav>
   );
 };
@@ -41,7 +44,7 @@ const StyledNav = styled.nav`
   }
   h1 {
       color: #ed55d3;
-      font-size: 2rem;
+      font-size: 2rem; 
   }
 `;
 

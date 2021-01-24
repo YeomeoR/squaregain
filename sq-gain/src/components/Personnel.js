@@ -25,9 +25,7 @@ const Personnel = () => {
         delivering practical sustainable solutions around carbon, energy, waste
         and sustainable finance. Our experienced team has a proven track-record
         to help our clients strategically and operationally.
-      </p>
-      ​
-      <p>
+     
         Established in 2015 by a group of experienced sustainability leaders,
         Square Gain has already worked with many leading organisations. Our
         Associates have over 150 years of sustainability leadership, working in
@@ -35,6 +33,7 @@ const Personnel = () => {
         sector organisations. ​ We are a Cyber Essentials certified company.
       </p>
       <img className="co-logo" src={cyber} alt="cyber essentials" />
+      <div className="personnel-line"></div>
       <div className="person">
         <h2>
           <span>Greg Chant-Hall</span>
@@ -291,7 +290,8 @@ const StyledPersonnel = styled(StyledAbout)`
     font-size: 4rem;
   }
   h2 {
-    padding: 1.5rem;
+    margin-left: 0;
+    padding: 1.5rem 0;
     font-weight: lighter;
   }
   .personnel-line {

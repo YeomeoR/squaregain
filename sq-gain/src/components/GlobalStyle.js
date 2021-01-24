@@ -49,7 +49,8 @@ h1 {
         font-size: 4rem;
     }
     h3 {
-color: white;
+        color: white;
+        font-size: 3rem;
 
     }
     h4 {
