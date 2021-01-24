@@ -10,7 +10,10 @@ import building from '../images/iconmonstr-recycling-15-24.png';
 //images
 import millennium from '../images/pexels-pixabay-220769.jpg';
 import blur from '../images/pexels-negative-space-6618 (1).jpg';
-import towerBridge from '../images/pexels-chris-schippers-427679.jpg'
+import towerBridge from '../images/pexels-chris-schippers-427679.jpg';
+//animation
+import { motion } from 'framer-motion'
+import {pageAnimation, photoAnim} from '../animation'
 // styles
 import styled from 'styled-components';
 import { StyledAbout, StyledDescription, StyledImage } from '../styles';
@@ -18,17 +21,17 @@ import { StyledAbout, StyledDescription, StyledImage } from '../styles';
 
 const Services = () => {
     return ( 
-    <StyledServices>
+    <StyledServices variants={pageAnimation}>
       <StyledDescription>
-        <h2>
+        <motion.h2>
           <span>What We Excel At...</span>
-        </h2>
+        </motion.h2>
         <StyledCards>
           <StyledCard>
-            <div className="icon">
-              <img src={weather} alt="weather" />
-              <h5>Climate Emergency and Carbon</h5>
-            </div>
+            <motion.div className="icon">
+              <motion.img variants={photoAnim} src={weather} alt="weather" />
+              <motion.h5>Climate Emergency and Carbon</motion.h5>
+            </motion.div>
             <p>
             Assisting local councils to develop and implement robust action plans, in response to their declarations of climate and ecological emergency, Square Gain provides technical and commercial support to implement practical actions accross buildings, transport, procurement waste and other high intensity areas.  Services include:
 Carbon benchmarking
@@ -42,10 +45,10 @@ To access free introductory e-learning visit: www.ClimateCrisisAction.com
             </p>
           </StyledCard>
           <StyledCard>
-            <div className="icon">
-              <img src={infrastructure} alt="infrastructure" />
-              <h5>Sustainable Infrastructure</h5>
-            </div>
+            <motion.div className="icon">
+              <motion.img variants={photoAnim} src={infrastructure} alt="infrastructure" />
+              <motion.h5>Sustainable Infrastructure</motion.h5>
+            </motion.div>
             <p>
             Support to sustainable infrastructure investors, clients and developers.
 Expert sustainability, life-cycle, environmental,  social knowledge
@@ -55,10 +58,10 @@ Good working knowledge of GRESB Infrastructure, SuRE and Infrastructure Sustaina
             </p>
           </StyledCard>
           <StyledCard>
-            <div className="icon">
-              <img src={supply} alt="supply" />
-              <h5>Supply-Chain Risk Management</h5>
-            </div>
+            <motion.div className="icon">
+              <motion.img variants={photoAnim} src={supply} alt="supply" />
+              <motion.h5>Supply-Chain Risk Management</motion.h5>
+            </motion.div>
             <p>
             Supply chains are often opaque.  We have significant experience working with investors, multinationals and their supply chains and have worked on this issue with (amongst others) UN Principles for Responsible Investment and the Chartered Institute for Purchase and Supply.
 ESG (Environmental, Social and Governance) investor & multi-national supply-chain engagement strategy and implementation.
@@ -69,10 +72,10 @@ Please contact us to join the pilot group
             </p>
           </StyledCard>
           <StyledCard>
-            <div className="icon">
-              <img src={finance} alt="finance" />
-              <h5>Sustainable Finance</h5>
-            </div>
+            <motion.div className="icon">
+              <motion.img variants={photoAnim} src={finance} alt="finance" />
+              <motion.h5>Sustainable Finance</motion.h5>
+            </motion.div>
             <p>
             Sustainable finance seeks to improve environment, social and governance issues whilst also making a healthy financial return.  Square Gain services include:
 Support on reporting, including climate related financial disclosure aligned with the requirements of TCFD (Taskforce on Financial Related Climate Disclosure)
@@ -84,10 +87,10 @@ Contact us for a free Sustainable Finance overview download
           </StyledCard>
           
           <StyledCard>
-            <div className="icon">
-              <img src={responsibility} alt="responsibility" />
-              <h5>Corporate Responsibility, Risk Management and Reporting</h5>
-            </div>
+            <motion.div className="icon">
+              <motion.img variants={photoAnim} src={responsibility} alt="responsibility" />
+              <motion.h5>Corporate Responsibility, Risk Management and Reporting</motion.h5>
+            </motion.div>
             <p>
             Sustainability strategy, and planning
 Implementation support
@@ -99,10 +102,10 @@ Reporting
          
           
           <StyledCard>
-            <div className="icon">
-              <img src={wellbeing} alt="wellbeing" />
-              <h5>Wellbeing</h5>
-            </div>
+            <motion.div className="icon">
+              <motion.img variants={photoAnim} src={wellbeing} alt="wellbeing" />
+              <motion.h5>Wellbeing</motion.h5>
+            </motion.div>
             <p>
             WELL Building Standard:  WELL AP (accredited professional) services
 RESET indoor air quality (IAQ) monitoring and benchmarking
@@ -111,10 +114,10 @@ Training & capacity building of what is entailed with the WELL Building Standard
             </p>
           </StyledCard>
           <StyledCard>
-            <div className="icon">
-              <img src={environmental} alt="environmental" />
-              <h5>Sustainability and Environmental Management Systems</h5>
-            </div>
+            <motion.div className="icon">
+              <motion.img variants={photoAnim} src={environmental} alt="environmental" />
+              <motion.h5>Sustainability and Environmental Management Systems</motion.h5>
+            </motion.div>
             <p>
             Strategy development and due diligence
 Carbon Management Strategy and Planning
@@ -130,10 +133,10 @@ including Articulate Storyline and Litmos.
             </p>
           </StyledCard>
           <StyledCard>
-            <div className="icon">
-              <img src={building} alt="building" />
-              <h5>Zero Carbon and Green Buildings</h5>
-            </div>
+            <motion.div className="icon">
+              <motion.img variants={photoAnim} src={building} alt="building" />
+              <motion.h5>Zero Carbon and Green Buildings</motion.h5>
+            </motion.div>
             <p>
             Working with our partner the Carbon Free Group, we provide ultra-low and zero carbon buildings.  Services range from consultancy support, through to design, sourcing innovative supply-chain companies, and full turnkey solutions.  Experience includes exemplar sustainability and innovation on over 500 retail, education, public, commercial and residential buildings.  Other services include:
 Green building cost consulting and life cycle cost analysis
@@ -147,9 +150,9 @@ Home Quality Mark (HQM).
         </StyledCards>
       </StyledDescription>
       <StyledImage>
-        <img src={millennium} alt="millennium" />
-        <img src={blur} alt="blur" />
-        <img src={towerBridge} alt="towerBridge" />
+        <motion.img variants={photoAnim} src={millennium} alt="millennium" />
+        <motion.img variants={photoAnim} src={blur} alt="blur" />
+        <motion.img variants={photoAnim} src={towerBridge} alt="towerBridge" />
       </StyledImage>
     </StyledServices>
   );
@@ -171,7 +174,7 @@ const StyledServices = styled(StyledAbout)`
   }
 `;
 
-const StyledCards = styled.div`
+const StyledCards = styled(motion.div)`
   display: flex;
   flex-wrap: wrap;
   @media (max-width: 1100px) {
@@ -179,7 +182,7 @@ const StyledCards = styled.div`
   }
 `;
 
-const StyledCard = styled.div`
+const StyledCard = styled(motion.div)`
   flex-basis: 20rem;
   padding: 1rem;
   .icon {

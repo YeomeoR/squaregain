@@ -1,10 +1,13 @@
 //routing
 import { Link } from 'react-router-dom'
 import styled from 'styled-components';
+//images
+import logo5 from '../images/logo5.png'
 
 const Nav = () => {
   return (
     <StyledNav>
+      <Link to='/'><img src={logo5} alt="logo4"/></Link>
       <ul>
         <Link to='/'><li>About Us</li></Link>
         <Link to='/services'><li>Services</li></Link>

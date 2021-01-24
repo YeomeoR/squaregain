@@ -1,4 +1,6 @@
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, useLocation } from 'react-router-dom';
+//animation
+import { AnimatePresence } from 'framer-motion';
 //nav
 import Nav from './components/Nav';
 // Global style
@@ -12,12 +14,16 @@ import Footer from './components/Footer'
 // import logo3 from './images/logo3.png';
 
 function App() {
+  const location = useLocation();
+
   return (
     <div className="App">
       <GlobalStyle />
       {/* <img src={logo3} alt="" /> */}
       <Nav />
-      <Switch>
+      <Switch location={location} key={location.pathname}>
+        <AnimatePresence exitBeforeEnter>
+          {/* the tag above should be wrapping the Switch, not inside them BUT it doesn't change pages if they are outside of them.*/}
         <Route path='/' exact>
           <AboutUs />
         </Route>
@@ -30,7 +36,8 @@ function App() {
         <Route path='/clients' exact>
           <OurClients />
         </Route>
-      </Switch>
+        </AnimatePresence>
+        </Switch>
       <Footer />
     </div>
   );

@@ -5,45 +5,52 @@ import {
   StyledImage,
   StyledHide,
 } from '../styles';
+//animation
+import { motion } from 'framer-motion'
+import { pageAnimation, photoAnim, titleAnim, fade } from '../animation'
+import Wave from '../components/Wave'
+//email
+import SendEmail from '../components/SendEmail'
 //images
-import logo4 from '../images/logo4.png'
+
 
 
 
 const AboutSection = () => {
   return (
-    <StyledAbout>
+    <StyledAbout variants={pageAnimation}>
       <StyledDescription>
-        <div className="title">
-          <img src={logo4} alt=""/>
-          <h3>
+        <motion.div className="title">
+{/* <motion.img variants={photoAnim} src={logo4} alt=""/> */}
+          <motion.h3 variants={titleAnim}>
             Advantage Through <span>Sustainability</span>
-          </h3>
+          </motion.h3>
 
-          <h3>
+          <motion.h3 variants={titleAnim}>
             <span>Zero</span>-Carbon
-          </h3>
+          </motion.h3>
 
-          <h3>Sustainable Finance</h3>
+          <motion.h3 variants={titleAnim}>Sustainable Finance</motion.h3>
 
-          <h3>Wellbeing</h3>
+          <motion.h3 variants={titleAnim}>Wellbeing</motion.h3>
 
-          <h3>Supply Chain</h3>
-        </div>
-        {/* <p>
+          <motion.h3 variants={titleAnim}>Supply Chain</motion.h3>
+        </motion.div>
+        <motion.p variants={fade}>
             We are a sustainability consultancy focused on the built
             environment, and work in partnership with our public and private
             sector clients to deliver robust sustainable and commercial
             solutions, through a collaborative, pragmatic approach.
-          </p> */}
+          </motion.p>
         <StyledHide>
-          <button>Contact Us</button>
+          <motion.button variants={fade} onClick={SendEmail}>Contact Us</motion.button>
         </StyledHide>
       </StyledDescription>
 
       <StyledImage>
-        <img src={blur} alt="blur" />
+        <motion.img variants={photoAnim} src={blur} alt="blur" />
       </StyledImage>
+      <Wave />
     </StyledAbout>
   );
 };
