@@ -6,7 +6,7 @@ import {
   StyledHide,
 } from '../styles';
 //images
-import logo3 from '../images/logo3.png'
+import logo4 from '../images/logo4.png'
 
 
 
@@ -15,7 +15,7 @@ const AboutSection = () => {
     <StyledAbout>
       <StyledDescription>
         <div className="title">
-          <img src={logo3} alt=""/>
+          <img src={logo4} alt=""/>
           <h3>
             Advantage Through <span>Sustainability</span>
           </h3>

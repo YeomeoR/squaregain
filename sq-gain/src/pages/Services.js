@@ -21,13 +21,13 @@ const Services = () => {
     <StyledServices>
       <StyledDescription>
         <h2>
-          <span></span>
+          <span>What We Excel At...</span>
         </h2>
         <StyledCards>
           <StyledCard>
             <div className="icon">
               <img src={weather} alt="weather" />
-              <h3>Climate Emergency and Carbon</h3>
+              <h5>Climate Emergency and Carbon</h5>
             </div>
             <p>
             Assisting local councils to develop and implement robust action plans, in response to their declarations of climate and ecological emergency, Square Gain provides technical and commercial support to implement practical actions accross buildings, transport, procurement waste and other high intensity areas.  Services include:
@@ -44,7 +44,7 @@ To access free introductory e-learning visit: www.ClimateCrisisAction.com
           <StyledCard>
             <div className="icon">
               <img src={infrastructure} alt="infrastructure" />
-              <h3>Sustainable Infrastructure</h3>
+              <h5>Sustainable Infrastructure</h5>
             </div>
             <p>
             Support to sustainable infrastructure investors, clients and developers.
@@ -57,7 +57,7 @@ Good working knowledge of GRESB Infrastructure, SuRE and Infrastructure Sustaina
           <StyledCard>
             <div className="icon">
               <img src={supply} alt="supply" />
-              <h3>Supply-Chain Risk Management</h3>
+              <h5>Supply-Chain Risk Management</h5>
             </div>
             <p>
             Supply chains are often opaque.  We have significant experience working with investors, multinationals and their supply chains and have worked on this issue with (amongst others) UN Principles for Responsible Investment and the Chartered Institute for Purchase and Supply.
@@ -71,7 +71,7 @@ Please contact us to join the pilot group
           <StyledCard>
             <div className="icon">
               <img src={finance} alt="finance" />
-              <h3>Sustainable Finance</h3>
+              <h5>Sustainable Finance</h5>
             </div>
             <p>
             Sustainable finance seeks to improve environment, social and governance issues whilst also making a healthy financial return.  Square Gain services include:
@@ -86,7 +86,7 @@ Contact us for a free Sustainable Finance overview download
           <StyledCard>
             <div className="icon">
               <img src={responsibility} alt="responsibility" />
-              <h3>Corporate Responsibility, Risk Management and Reporting</h3>
+              <h5>Corporate Responsibility, Risk Management and Reporting</h5>
             </div>
             <p>
             Sustainability strategy, and planning
@@ -101,7 +101,7 @@ Reporting
           <StyledCard>
             <div className="icon">
               <img src={wellbeing} alt="wellbeing" />
-              <h3>Wellbeing</h3>
+              <h5>Wellbeing</h5>
             </div>
             <p>
             WELL Building Standard:  WELL AP (accredited professional) services
@@ -113,7 +113,7 @@ Training & capacity building of what is entailed with the WELL Building Standard
           <StyledCard>
             <div className="icon">
               <img src={environmental} alt="environmental" />
-              <h3>Sustainability and Environmental Management Systems</h3>
+              <h5>Sustainability and Environmental Management Systems</h5>
             </div>
             <p>
             Strategy development and due diligence
@@ -132,7 +132,7 @@ including Articulate Storyline and Litmos.
           <StyledCard>
             <div className="icon">
               <img src={building} alt="building" />
-              <h3>Zero Carbon and Green Buildings</h3>
+              <h5>Zero Carbon and Green Buildings</h5>
             </div>
             <p>
             Working with our partner the Carbon Free Group, we provide ultra-low and zero carbon buildings.  Services range from consultancy support, through to design, sourcing innovative supply-chain companies, and full turnkey solutions.  Experience includes exemplar sustainability and innovation on over 500 retail, education, public, commercial and residential buildings.  Other services include:
@@ -158,6 +158,10 @@ Home Quality Mark (HQM).
 const StyledServices = styled(StyledAbout)`
   h2 {
     padding-bottom: 5rem;
+  }
+  h5 {
+    margin-left: 1rem;
+    font-size: 1.4rem;
   }
   p {
     width: 85%;
