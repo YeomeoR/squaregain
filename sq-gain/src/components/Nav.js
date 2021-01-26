@@ -1,20 +1,35 @@
 //routing
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+//contact
+import SendEmail from '../components/SendEmail';
+//style
 import styled from 'styled-components';
 //images
-import logo5 from '../images/logo5.png'
+import logo5 from '../images/logo5.png';
 
 const Nav = () => {
   return (
     <StyledNav>
-      <Link to='/'><img src={logo5} alt="logo4"/></Link>
+      <Link to="/">
+        <img src={logo5} alt="logo4" />
+      </Link>
       <ul>
-        <Link to='/'><li>About Us</li></Link>
-        <Link to='/services'><li>Services</li></Link>
-        <Link to='/projects'><li>Projects</li></Link>
-        <Link to='/clients'><li>Our Clients</li></Link>
-          </ul>
-          <Link to='/'><h1 id="logo"><em>Square Gain</em></h1></Link>
+        <Link to="/">
+          <li>About Us</li>
+        </Link>
+        <Link to="/services">
+          <li>Services</li>
+        </Link>
+        <Link to="/projects">
+          <li>Projects</li>
+        </Link>
+        <Link to="/clients">
+          <li>Our Clients</li>
+        </Link>
+      </ul>
+      <h1 id="logo" onClick={SendEmail}>
+        <em>Square Gain</em>
+      </h1>
     </StyledNav>
   );
 };
@@ -49,8 +64,11 @@ const StyledNav = styled.nav`
     color: #fff;
   }
   h1 {
-      color: #ed55d3;
-      font-size: 2rem; 
+    color: #ed55d3;
+    font-size: 2rem;
+  }
+  #logo {
+    cursor: pointer;
   }
 `;
 
