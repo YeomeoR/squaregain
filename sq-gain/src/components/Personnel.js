@@ -1,4 +1,7 @@
+//animation
+import { fade } from '../animation'
 import { AnimateSharedLayout } from 'framer-motion';
+// import UseScroll from '../components/UseScroll'
 //state and Toggle
 import Toggle from './Toggle';
 //images and icons
@@ -20,8 +23,10 @@ import styled from 'styled-components';
 import { StyledAbout } from '../styles';
 
 const Personnel = () => {
+  // const [element, controls] = UseScroll();
   return (
-    <StyledPersonnel>
+    <StyledPersonnel variants={fade} initial='hidden' animate='show'>
+      <AnimateSharedLayout>
       <h1>Who we are</h1>
       <p>
         Square Gain works in the public and private sectors, and is focused on
@@ -36,12 +41,11 @@ const Personnel = () => {
       </p>
       <img className="co-logo" src={cyber} alt="cyber essentials" />
       <div className="personnel-line"></div>
-      <AnimateSharedLayout>
       <div className="person">
         <h2>
           <span>Greg Chant-Hall</span>
         </h2>
-        <img src={gregCH} alt="gregCH" />
+          <img src={gregCH} alt="gregCH" />
         <div className="position">
         {/* <AnimateSharedLayout> */}
           <Toggle title="Director">

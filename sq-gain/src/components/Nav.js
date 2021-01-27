@@ -40,8 +40,8 @@ const StyledNav = styled.nav`
   margin: auto;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 10rem;
-  background: #5b5b5b;
+  padding: 1rem 6rem;
+  background: #242333;
   position: sticky;
   top: 0;
   z-index: 10;
@@ -57,6 +57,7 @@ const StyledNav = styled.nav`
     font-size: 1.5rem;
     font-family: 'Rambla', sans-serif;
     font-weight: lighter;
+    
   }
   li {
     padding-left: 10rem;
@@ -64,11 +65,29 @@ const StyledNav = styled.nav`
     color: #fff;
   }
   h1 {
+    padding-left: 5rem;
     color: #ed55d3;
     font-size: 2rem;
   }
   #logo {
     cursor: pointer;
+  }
+
+  @media (max-width: 960px) {
+    #logo {
+      display: none;
+    }
+  @media (max-width: 880px) {
+      
+      img {
+        display: none;
+      }
+      ul {
+      position: absolute;
+      left: 0;
+      display: block;
+
+      }
   }
 `;
 

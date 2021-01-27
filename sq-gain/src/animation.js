@@ -43,7 +43,7 @@ export const pageAnimation = {
       scale: 1,
       opacity: 1,
       transition: { ease: 'easeOut', duration: 0.75 },
-      // delay: 0.5,
+      delay: 0.5,
     },
   };
   

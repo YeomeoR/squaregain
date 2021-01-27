@@ -1,12 +1,16 @@
-import blur from '../images/pexels-yoss-cinematic-2564153.jpg';
+// import blur from '../images/pexels-yoss-cinematic-2564153.jpg';
+import logo6 from '../images/Logo6.png';
 import {
   StyledAbout,
   StyledDescription,
-  StyledImage,
+  // StyledImage,
   StyledHide,
+  StyledIcon,
+ 
 } from '../styles';
 //animation
 import { motion } from 'framer-motion'
+import ScrollTop from '../components/ScrollTop'
 import { pageAnimation, photoAnim, titleAnim, fade } from '../animation'
 import Wave from '../components/Wave'
 //email
@@ -18,10 +22,10 @@ import SendEmail from '../components/SendEmail'
 
 const AboutSection = () => {
   return (
-    <StyledAbout variants={pageAnimation}>
+    <StyledAbout variants={pageAnimation} >
+      <ScrollTop />
       <StyledDescription>
         <motion.div className="title">
-{/* <motion.img variants={photoAnim} src={logo4} alt=""/> */}
           <motion.h3 variants={titleAnim}>
             Advantage Through <span>Sustainability</span>
           </motion.h3>
@@ -46,11 +50,14 @@ const AboutSection = () => {
           <motion.button variants={fade} onClick={SendEmail}>Contact Us</motion.button>
         </StyledHide>
       </StyledDescription>
-
-      <StyledImage>
+      <StyledIcon>
+        <motion.img variants={photoAnim} src={logo6} alt="" />
+        </StyledIcon>
+      {/* <StyledImage>
         <motion.img variants={photoAnim} src={blur} alt="blur" />
-      </StyledImage>
-      <Wave />
+      </StyledImage> */}
+    
+        <Wave />
     </StyledAbout>
   );
 };

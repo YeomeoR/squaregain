@@ -16,7 +16,7 @@ html {
 
 
 body {
-    background: #787878;
+    background: #3e3d4c;
     font-family: 'Rambla', sans-serif;
     overflow-x: hidden;
 }
@@ -27,14 +27,14 @@ button {
     cursor: pointer;
     margin-top: 1rem;
     padding: 1rem 2rem;
-    border: 3px solid #23d997;
+    border: 3px solid #e87ad0;
     background: transparent;
     color: white;
     transition: all 0.5s ease;
     font-family: 'Rambla', sans-serif;
    
     &:hover {
-        background-color: #23d997;
+        background-color: #e87ad0;
         color: white;
         
     }
@@ -42,7 +42,7 @@ button {
 h1 {
    
     font-weight: bold;
-    color: #23d997;
+    color: #e87ad0;
 }
     h2 {
         font-weight: lighter;
@@ -56,11 +56,11 @@ h1 {
     h4 {
         font-size: 2rem;
         font-weight: bold;
-        color: #23d997;
+        color: #e87ad0;
     }
     span {
         font-weight: bold;
-        color: #23d997;
+        color: #e87ad0;
     }
     a {
         font-size: 1.1.rem;

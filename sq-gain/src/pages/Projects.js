@@ -4,6 +4,7 @@ import { StyledAbout } from '../styles';
 //animations
 import { motion } from 'framer-motion';
 import { fade, pageAnimation, lineAnim } from '../animation';
+import ScrollTop from '../components/ScrollTop'
 
 //images
 import nhs from '../images/NHS.png';
@@ -26,6 +27,7 @@ const Projects = () => {
       animate="show"
       exit="exit"
     >
+      <ScrollTop />
       <motion.h1 variants={fade}>Our Recent Projects</motion.h1>
       <p>
         Projects include consultancy, systems and product development, training

@@ -13,21 +13,25 @@ import blur from '../images/pexels-negative-space-6618 (1).jpg';
 import towerBridge from '../images/pexels-chris-schippers-427679.jpg';
 //animation
 import { motion } from 'framer-motion'
-import {pageAnimation, photoAnim} from '../animation'
+import { pageAnimation, photoAnim } from '../animation'
+import ScrollTop from '../components/ScrollTop'
+
 // styles
 import styled from 'styled-components';
 import { StyledAbout, StyledDescription, StyledImage } from '../styles';
 
 
 const Services = () => {
+ 
     return ( 
-    <StyledServices variants={pageAnimation}>
-      <StyledDescription>
+      <StyledServices variants={pageAnimation} initial='hidden' animate='show'>
+        <ScrollTop />
+      <StyledDescription >
         <motion.h2>
           <span>What We Excel At...</span>
         </motion.h2>
         <StyledCards>
-          <StyledCard>
+          <StyledCard >
             <motion.div className="icon">
               <motion.img variants={photoAnim} src={weather} alt="weather" />
               <motion.h5>Climate Emergency and Carbon</motion.h5>

@@ -10,6 +10,7 @@ min-height: 90vh;
   justify-content: space-between;
   padding: 5rem 10rem;
   color: #ccc;
+  
   @media (max-width: 1300px) {
     display: block;
     padding: 2rem 2rem;
@@ -36,15 +37,29 @@ export const StyledDescription = styled.div`
 export const StyledImage = styled.div`
   flex: 1;
   overflow: hidden;
-  z-index: 2;
+  z-index: 5;
   img {
     width: 100%;
     height: 75vh;
     object-fit: contain;
   }
 `;
+export const StyledIcon = styled.div`
+  flex: 1;
+  overflow: hidden;
+  z-index: 5;
+  img {
+    width: 100%;
+    height: 50vh;
+    object-fit: contain;
+  }
+`;
 
 export const StyledHide = styled.div`
   overflow: hidden;
+`;
+
+export const StyledBackground = styled.div`
+background: no-repeat cover;
 `;
 
