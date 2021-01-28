@@ -25,7 +25,7 @@ const StyledFooter = styled.footer`
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background: linear-gradient(90deg, #23d997 0%, #ee3ac7 150%);
+  background: linear-gradient(90deg, #242333 0%, #b097c6 100%);
   img {
       position: relative;
       left: 85%;

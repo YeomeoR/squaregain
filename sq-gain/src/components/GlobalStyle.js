@@ -74,6 +74,9 @@ h1 {
     #contact {
         cursor: pointer;
     }
+    img {
+        padding: 0.4rem;
+    }
 
 `;
 
