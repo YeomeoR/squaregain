@@ -176,13 +176,13 @@ Head of Private Markets</em></p>
         
                 <div className="description">
                   <p>
-                        <button onClick={SendEmail}>email</button>: info@squaregain.co
+                        <button onClick={SendEmail}>email</button>   : (info@squaregain.co)
                   </p>
                   <p>
                    <em>tel</em>: 07814 246 382
                   </p>
                   <p>
-                   <a href="https://twitter.com/Square_Gain" target="blank">Twitter</a>: @square_gain
+                   <a href="https://twitter.com/Square_Gain" target="blank">Twitter</a> : @square_gain
                   </p>
                   <motion.div
                     variants={lineAnim}
