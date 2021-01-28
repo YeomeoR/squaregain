@@ -6,10 +6,12 @@ import SendEmail from '../components/SendEmail';
 import styled from 'styled-components';
 //images
 import logo5 from '../images/logo5.png';
+// import Wave from './Wave'
 
 const Nav = () => {
   return (
     <StyledNav>
+  
       <Link to="/">
         <img src={logo5} alt="logo4" />
       </Link>
@@ -45,6 +47,7 @@ const StyledNav = styled.nav`
   position: sticky;
   top: 0;
   z-index: 10;
+
   a {
     color: white;
     text-decoration: none;
@@ -86,9 +89,13 @@ const StyledNav = styled.nav`
       position: absolute;
       left: 0;
       display: block;
-
+      }
+      li {
+        color: #ee3ac7;
+        font-size: 1.2rem;
       }
   }
-`;
+  `;
+
 
 export default Nav;

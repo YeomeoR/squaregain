@@ -2,11 +2,11 @@
 import weather from '../images/iconmonstr-weather-91-24.png';
 import finance from '../images/iconmonstr-currency-11-24.png';
 import infrastructure from '../images/iconmonstr-networking-2-24.png';
-import responsibility from '../images/iconmonstr-danger-8-24.png';
+import responsibility from '../images/iconmonstr-clipboard-2-24.png';
 import environmental from '../images/iconmonstr-tree-5-24.png';
 import supply from '../images/iconmonstr-link-1-24.png';
-import wellbeing from '../images/iconmonstr-tree-5-24.png';
-import building from '../images/iconmonstr-recycling-15-24.png';
+import wellbeing from '../images/iconmonstr-home-10-24.png';
+import building from '../images/iconmonstr-construction-10-24.png';
 //images
 import millennium from '../images/pexels-pixabay-220769.jpg';
 import blur from '../images/pexels-negative-space-6618 (1).jpg';
@@ -15,7 +15,6 @@ import towerBridge from '../images/pexels-chris-schippers-427679.jpg';
 import { motion } from 'framer-motion'
 import { pageAnimation, photoAnim } from '../animation'
 import ScrollTop from '../components/ScrollTop'
-
 // styles
 import styled from 'styled-components';
 import { StyledAbout, StyledDescription, StyledImage } from '../styles';
@@ -163,8 +162,9 @@ Home Quality Mark (HQM).
 };
 
 const StyledServices = styled(StyledAbout)`
-  h2 {
-    padding-bottom: 5rem;
+
+h2 {
+    padding-bottom: 4rem;
   }
   h5 {
     margin-left: 1rem;
