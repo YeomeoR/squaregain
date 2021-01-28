@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.js": "/SquareGain/static/js/main.65cb6c71.chunk.js",
+    "main.js.map": "/SquareGain/static/js/main.65cb6c71.chunk.js.map",
+    "runtime-main.js": "/SquareGain/static/js/runtime-main.bd3df04d.js",
+    "runtime-main.js.map": "/SquareGain/static/js/runtime-main.bd3df04d.js.map",
+    "static/js/2.69634125.chunk.js": "/SquareGain/static/js/2.69634125.chunk.js",
+    "static/js/2.69634125.chunk.js.map": "/SquareGain/static/js/2.69634125.chunk.js.map",
+    "static/js/3.62b75f5a.chunk.js": "/SquareGain/static/js/3.62b75f5a.chunk.js",
+    "static/js/3.62b75f5a.chunk.js.map": "/SquareGain/static/js/3.62b75f5a.chunk.js.map",
+    "index.html": "/SquareGain/index.html",
+    "static/js/2.69634125.chunk.js.LICENSE.txt": "/SquareGain/static/js/2.69634125.chunk.js.LICENSE.txt",
+    "static/media/Emma_KnightStrong_PNG.8f487e1e.png": "/SquareGain/static/media/Emma_KnightStrong_PNG.8f487e1e.png",
+    "static/media/FISP_PNG.af14824b.png": "/SquareGain/static/media/FISP_PNG.af14824b.png",
+    "static/media/NHS.16b2a985.png": "/SquareGain/static/media/NHS.16b2a985.png",
+    "static/media/TowerHamlets.d7d47001.png": "/SquareGain/static/media/TowerHamlets.d7d47001.png",
+    "static/media/actuaries.a3c8ca70.png": "/SquareGain/static/media/actuaries.a3c8ca70.png",
+    "static/media/erm.6a32ddd0.png": "/SquareGain/static/media/erm.6a32ddd0.png",
+    "static/media/networkrail.1eef8203.png": "/SquareGain/static/media/networkrail.1eef8203.png",
+    "static/media/pexels-chris-schippers-427679.517d47f0.jpg": "/SquareGain/static/media/pexels-chris-schippers-427679.517d47f0.jpg",
+    "static/media/pexels-negative-space-6618 (1).978a33ad.jpg": "/SquareGain/static/media/pexels-negative-space-6618 (1).978a33ad.jpg",
+    "static/media/pexels-pixabay-220769.02a8dd77.jpg": "/SquareGain/static/media/pexels-pixabay-220769.02a8dd77.jpg",
+    "static/media/swale.85f363e4.png": "/SquareGain/static/media/swale.85f363e4.png",
+    "static/media/uniKent.48c228d9.png": "/SquareGain/static/media/uniKent.48c228d9.png",
+    "static/media/upp.f4862356.png": "/SquareGain/static/media/upp.f4862356.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd3df04d.js",
+    "static/js/2.69634125.chunk.js",
+    "static/js/main.65cb6c71.chunk.js"
+  ]
+}
