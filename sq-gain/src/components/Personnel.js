@@ -46,9 +46,9 @@ const Personnel = () => {
           <span>Greg Chant-Hall</span>
         </h2>
           <img src={gregCH} alt="gregCH" />
-        <div className="position">
-        {/* <AnimateSharedLayout> */}
+          <div className="position">
           <Toggle title="Director">
+            
             <div className="biog">
               <p>
                 Greg has 25 years experience in sustainability leadership and

@@ -9,6 +9,7 @@ import AboutUs from './pages/AboutUs';
 import Services from './pages/Services';
 import Projects from './pages/Projects';
 import OurClients from './pages/OurClients';
+import Docs from './pages/Docs';
 import Footer from './components/Footer'
 //images
 // import logo3 from './images/logo3.png';
@@ -35,6 +36,9 @@ function App() {
         </Route>
         <Route path='/clients' exact>
           <OurClients />
+        </Route>
+        <Route path='/docs' exact>
+          <Docs />
         </Route>
         </AnimatePresence>
         </Switch>

@@ -28,6 +28,9 @@ const Nav = () => {
         <Link to="/clients">
           <li>Our Clients</li>
         </Link>
+        <Link to="/docs">
+          <li>Links</li>
+        </Link>
       </ul>
       <h1 id="logo" onClick={SendEmail}>
         <em>Square Gain</em>
