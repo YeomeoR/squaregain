@@ -7,10 +7,13 @@ import styled from 'styled-components';
 import { StyledAbout } from '../styles';
 //animations
 import { motion } from 'framer-motion';
+import Wave from '../components/Wave'
 import { fade, pageAnimation, lineAnim } from '../animation';
 import ScrollTop from '../components/ScrollTop';
 //images
-import cyber from '../images/Cyber Essentials Large.png';
+import cyber from '../images/Cyber Essentials Large.png'
+import lednet from '../images/LedNet.png'
+import london from '../images/LondonCouncils.png'
 //pdf
 
 const Docs = () => {
@@ -24,22 +27,10 @@ const Docs = () => {
       exit="exit"
     >
       <ScrollTop />
-      <motion.h1 variants={fade}>Useful links and docs</motion.h1>
+      <motion.h1 variants={fade}><img src={lednet} alt="lednet" />   Useful links and docs    <img src={london} alt="london" /></motion.h1>
       <p>Click on the links below to view our external resources.</p>
       <motion.div variants={lineAnim} className="personnel-line"></motion.div>
-      <div>
-        <div className="description">
-          <button>
-            <a href="https://climatecrisisaction.com/" target="blank">
-              Climate Action e-Learning
-            </a>
-          </button>
-
-          <motion.div
-            variants={lineAnim}
-            className="personnel-line"
-          ></motion.div>
-        </div>
+          <div>
         <div className="description">
           <button>
             <a
@@ -82,6 +73,7 @@ const Docs = () => {
             Transport - Webinar Recording
           </a>
         </button>
+          <Wave />
 
         <div className="description">
           <motion.div
@@ -191,9 +183,20 @@ const Docs = () => {
             className="personnel-line"
           ></motion.div>
         </div>
+        <div className="description">
+          <button>
+            <a href="https://climatecrisisaction.com/" target="blank">
+              Climate Action e-Learning
+            </a>
+          </button>
+          <motion.div
+            variants={lineAnim}
+            className="personnel-line"
+            ></motion.div>
+        </div>
       </div>
 
-      <div className="project" id="contact-section">
+      <div className="description" id="contact-section">
         <img className="co-logo" src={cyber} alt="cyber" />
         <h2>
           <span>Contact Us</span>
@@ -241,24 +244,13 @@ const StyledDocs = styled(StyledAbout)`
     margin: 2rem 0rem;
     width: 100%;
   }
-  .question {
-    padding: 3rem 0rem;
-    cursor: pointer;
-    p {
-      padding: 1rem 0rem;
-    }
-  }
+  
   a {
     text-decoration: none;
+    font-size: 1.7rem;
     color: #fff;
   }
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    @media (max-width: 768px) {
-      display: block;
-    }
+  
   }
   #contact-section p {
     padding: 10px;
