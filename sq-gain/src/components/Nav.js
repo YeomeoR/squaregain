@@ -81,7 +81,7 @@ const StyledNav = styled.nav`
       display: none;
     }
   @media (max-width: 880px) {
-      
+      min-height: 15vh;
       img {
         display: none;
       }

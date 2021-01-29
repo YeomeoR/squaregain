@@ -247,6 +247,9 @@ const StyledClients = styled(StyledAbout)`
     display: flex;
     justify-content: center;
     align-items: center;
+    @media(max-width: 768px){
+      display: block;
+    }
   }
   #contact-section p {
     padding: 10px;

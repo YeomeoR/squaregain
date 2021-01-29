@@ -3,11 +3,15 @@ import AboutSection from '../components/AboutSection';
 import Personnel from '../components/Personnel';
 //animation
 import { motion } from 'framer-motion'
-import {pageAnimation} from '../animation'
+import { pageAnimation } from '../animation'
+
+
+
 //styled
 import styled from 'styled-components'
 
 const AboutUs = () => {
+  
   return (
     <motion.div
       variants={pageAnimation}
