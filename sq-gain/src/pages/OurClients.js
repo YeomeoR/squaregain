@@ -205,7 +205,11 @@ const OurClients = () => {
           <a href="https://twitter.com/Square_Gain" target="blank"><img id="tweet" src={tweet} alt="tweet"/>{' '}
              @square_gain</a>
           </p>
-         
+          <p>Address: 
+
+Suite 004, Oakford House, 25 Orchard Drive,
+
+Wye, Kent TN25 5AT, UK</p>
         </div>
       </div>
     </StyledClients>

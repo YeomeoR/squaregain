@@ -1,7 +1,7 @@
 //email
 import SendEmail from '../components/SendEmail';
 //twitter
-import tweet from '../images/iconmonstr-twitter-1-16.png'
+import tweet from '../images/iconmonstr-twitter-1-16.png';
 //styles
 import styled from 'styled-components';
 import { StyledAbout } from '../styles';
@@ -11,8 +11,7 @@ import { fade, pageAnimation, lineAnim } from '../animation';
 import ScrollTop from '../components/ScrollTop';
 //images
 import cyber from '../images/Cyber Essentials Large.png';
-
-
+//pdf
 
 const Docs = () => {
   return (
@@ -26,83 +25,30 @@ const Docs = () => {
     >
       <ScrollTop />
       <motion.h1 variants={fade}>Useful links and docs</motion.h1>
-      <p>
-        LINKS TO PROJECT DOCS AND YOUTUBE VIDEO MEETINGS ETC.
-      </p>
-      <motion.div variants={lineAnim} className="personnel-line" style={{background: '#E87AD0'}}></motion.div>
-     
-      <div className="project">
-        {/* <div className="container">
-          <img className="co-logo" src={pri} alt="pri" />
-          <img className="co-logo" src={tower} alt="tower" />
-          <img className="co-logo" src={upp} alt="upp" />
-          <img className="co-logo" src={rail} alt="netrail" />
-          <img className="co-logo" src={isg} alt="isg" />
-        </div> */}
+      <p>Click on the links below to view our external resources.</p>
+      <motion.div variants={lineAnim} className="personnel-line"></motion.div>
+      <div>
         <div className="description">
-          {/* <p>
-            "Square Gain has been instrumental in rolling out an extensive and
-            ambitious environmental programme for all our construction people,
-            as part of our commitment to having a positive impact. Their
-            expertise and engaging style has resulted in excellent feedback and
-            I would highly recommend Square Gain to help achieve high quality
-            outcomes."
-          </p>
-          <p>
-            <em>Eva Gkenakou, Multiplex</em>
-          </p> */}
+          <button>
+            <a href="https://climatecrisisaction.com/" target="blank">
+              Climate Action e-Learning
+            </a>
+          </button>
+
           <motion.div
             variants={lineAnim}
             className="personnel-line"
           ></motion.div>
         </div>
-      </div>
-      <div className="project">
-        {/* <div className="container">
-          <img className="co-logo" src={nhs} alt="nhs" />
-          <img className="co-logo" src={swale} alt="swale" />
-          <img className="co-logo" src={pri} alt="pri" />
-          <img className="co-logo" src={iema} alt="iema" />
-          <img className="co-logo" src={kier} alt="kier" />
-        </div> */}
         <div className="description">
-          {/* <p>
-            "Square Gain has developed a new environmental and business
-            management system, which has been certified to the furniture
-            industry sustainability programme (FISP) standard and enabled us to
-            gain FSC certification. This has improved our business performance,
-            aligned us with client expectations and helped us become more
-            profitable and more sustainable."
-          </p>
-          <p>
-            <em>Nicola Murch, Atmosphere Furniture</em>
-          </p> */}
-          <motion.div
-            variants={lineAnim}
-            className="personnel-line"
-          ></motion.div>
-        </div>
-      </div>
-      <div className="project">
-        {/* <div className="container">
-          <img className="co-logo" src={raiffeisen} alt="bank" />
-          <img className="co-logo" src={multiplex} alt="multiplex" />
-          <img className="co-logo" src={cfg} alt="cfg" />
-          <img className="co-logo" src={aecom} alt="aecom" />
-          <img className="co-logo" src={well} alt="well" />
-        </div> */}
-        <div className="description">
-          {/* <p>
-            “We have enjoyed Square Gain's involvements with a series of low
-            carbon building research projects and very much value the
-            experience, expertise and insights that Square Gain brings.”​
-          </p>
-          <p>
-            <em>
-              Professor Alan Short, University of Cambridge School of
-              Architecture
-            </em>
-          </p> */}
+          <button>
+            <a
+              href="https://www.youtube.com/watch?v=d_NHZOOdKHI&feature=youtu.be"
+              target="blank"
+            >
+              Retrofitting Buildings - Webinar Recording
+            </a>
+          </button>
 
           <motion.div
             variants={lineAnim}
@@ -110,53 +56,136 @@ const Docs = () => {
           ></motion.div>
         </div>
       </div>
-      <div className="project">
-        {/* <div className="container">
-          <img className="co-logo" src={skanska} alt="skanska" />
-          <img className="co-logo" src={erm} alt="erm" />
-          <img className="co-logo" src={actuaries} alt="actuaries" />
-          <img className="co-logo" src={unicamb} alt="unicamb" />
-          <img className="co-logo" src={romania} alt="romania" />
-        </div> */}
+      <div className="description">
+        <button>
+          <a
+            href="https://www.youtube.com/watch?v=fmmPNNSDI8s&feature=youtu.be"
+            target="blank"
+          >
+            New Buildings - Webinar Recording
+          </a>
+        </button>
+
         <div className="description">
-          {/* <p>
-            “Square Gain ran entertaining and memorable sessions and gave
-            students the chance to apply learned theory to practice of
-            sustainability and business ethics. Student feedback was outstanding
-            and we appreciate you taking time to help educate the next
-            generation!”
-          </p>
-          <p>
-            <em>Dr Joana Vassilopoulou, Kent Business School,</em>
-          </p> */}
           <motion.div
             variants={lineAnim}
             className="personnel-line"
           ></motion.div>
         </div>
       </div>
-      <div className="project">
-        {/* <div className="container">
-          <img className="co-logo" src={ciria} alt="ciria" />
-          <img className="co-logo" src={arcadis} alt="arcadis" />
-          <img className="co-logo" src={unisurrey} alt="unisurrey" />
-          <img className="co-logo" src={uniKent} alt="uniKent" />
-        </div> */}
-        <div className="description">
-          {/* <p>
-            “Square Gain's experience and understanding led them to be selected
-            to author PRI's ESG Risks in the Supply Chain guide, which provides
-            a great opportunity to companies to understand and manage their
-            exposure to supply chain extra-financial risks." “Square Gain's
-            experience and understanding led them to be selected to author PRI's
-            ESG Risks in the Supply Chain guide, which provides a great
-            opportunity to companies to understand and manage their exposure to
-            supply chain extra-financial risks."
-          </p>
-          <p>
-            <em>Archie Beeching, Head of Private Markets</em>
-          </p> */}
+      <div className="description">
+        <button>
+          <a
+            href="https://www.youtube.com/watch?v=fmmPNNSDI8s&feature=youtu.be"
+            target="blank"
+          >
+            Transport - Webinar Recording
+          </a>
+        </button>
 
+        <div className="description">
+          <motion.div
+            variants={lineAnim}
+            className="personnel-line"
+          ></motion.div>
+        </div>
+      </div>
+      <div className="description">
+        <button>
+          <a
+            href="https://www.youtube.com/watch?v=wG7PEmnLD5Q&feature=youtu.be"
+            target="blank"
+          >
+            Power - Webinar Recording
+          </a>
+        </button>
+
+        <div className="description">
+          <motion.div
+            variants={lineAnim}
+            className="personnel-line"
+          ></motion.div>
+        </div>
+      </div>
+      <div className="description">
+        <button>
+          <a
+            href="https://www.youtube.com/watch?v=qD9Y9vkS2sw&feature=youtu.be"
+            target="blank"
+          >
+            Procurement, Consumption & Waste - Webinar Recording
+          </a>
+        </button>
+
+        <div className="description">
+          <motion.div
+            variants={lineAnim}
+            className="personnel-line"
+          ></motion.div>
+        </div>
+      </div>
+      <div className="description">
+        <button>
+          <a
+            href="https://4ce02075-daf0-4ecb-8c67-d35d378c68c1.filesusr.com/ugd/ad63ff_63ec24eab3734923a50fc0e9878e7811.pdf"
+            target="blank"
+          >
+            Climate Foundation - PDF
+          </a>
+        </button>
+
+        <div className="description">
+          <motion.div
+            variants={lineAnim}
+            className="personnel-line"
+          ></motion.div>
+        </div>
+      </div>
+      <div className="description">
+        <button>
+          <a
+            href="https://4ce02075-daf0-4ecb-8c67-d35d378c68c1.filesusr.com/ugd/ad63ff_c0e3dffc14b744ee9d1b42743e05157d.pdf"
+            target="blank"
+          >
+            Transport - PDF
+          </a>
+        </button>
+
+        <div className="description">
+          <motion.div
+            variants={lineAnim}
+            className="personnel-line"
+          ></motion.div>
+        </div>
+      </div>
+      <div className="description">
+        <button>
+          <a
+            href="https://4ce02075-daf0-4ecb-8c67-d35d378c68c1.filesusr.com/ugd/ad63ff_20ee9e309e284cd5bc2a3b1234246c51.pdf"
+            target="blank"
+          >
+            Decarbonising Power Systems - PDF
+          </a>
+        </button>
+
+        <div className="description">
+          <motion.div
+            variants={lineAnim}
+            className="personnel-line"
+          ></motion.div>
+        </div>
+      </div>
+      <div className="description">
+        <button>
+          <a
+            href="https://4ce02075-daf0-4ecb-8c67-d35d378c68c1.filesusr.com/ugd/ad63ff_526231ecb7a740358360ddf22aeda686.pdf"
+            target="blank"
+          >
+            Consumption and Waste - PDF
+          </a>
+        </button>
+
+        <div className="description">
           <motion.div
             variants={lineAnim}
             className="personnel-line"
@@ -170,7 +199,7 @@ const Docs = () => {
           <span>Contact Us</span>
         </h2>
 
-        <div className="description" >
+        <div className="description">
           <p>
             <button onClick={SendEmail}>email</button> : (info@squaregain.co)
           </p>
@@ -178,10 +207,14 @@ const Docs = () => {
             <em>tel</em>: 07814 246 382
           </p>
           <p>
-          <a href="https://twitter.com/Square_Gain" target="blank"><img id="tweet" src={tweet} alt="tweet"/>{' '}
-             @square_gain</a>
+            <a href="https://twitter.com/Square_Gain" target="blank">
+              <img id="tweet" src={tweet} alt="tweet" /> @square_gain
+            </a>
           </p>
-         
+          <p>
+            Address: Suite 004, Oakford House, 25 Orchard Drive, Wye, Kent TN25
+            5AT, UK
+          </p>
         </div>
       </div>
     </StyledDocs>
@@ -223,7 +256,7 @@ const StyledDocs = styled(StyledAbout)`
     display: flex;
     justify-content: center;
     align-items: center;
-    @media(max-width: 768px){
+    @media (max-width: 768px) {
       display: block;
     }
   }
