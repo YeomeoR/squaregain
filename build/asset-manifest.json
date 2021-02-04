@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.js": "/squaregain/static/js/main.ddeb3a3f.chunk.js",
+    "main.js.map": "/squaregain/static/js/main.ddeb3a3f.chunk.js.map",
+    "runtime-main.js": "/squaregain/static/js/runtime-main.25470bd7.js",
+    "runtime-main.js.map": "/squaregain/static/js/runtime-main.25470bd7.js.map",
+    "static/js/2.3723b7d4.chunk.js": "/squaregain/static/js/2.3723b7d4.chunk.js",
+    "static/js/2.3723b7d4.chunk.js.map": "/squaregain/static/js/2.3723b7d4.chunk.js.map",
+    "static/js/3.62b75f5a.chunk.js": "/squaregain/static/js/3.62b75f5a.chunk.js",
+    "static/js/3.62b75f5a.chunk.js.map": "/squaregain/static/js/3.62b75f5a.chunk.js.map",
+    "index.html": "/squaregain/index.html",
+    "static/js/2.3723b7d4.chunk.js.LICENSE.txt": "/squaregain/static/js/2.3723b7d4.chunk.js.LICENSE.txt",
+    "static/media/David Short.864e65ce.jpg": "/squaregain/static/media/David Short.864e65ce.jpg",
+    "static/media/Emma_KnightStrong_PNG.8f487e1e.png": "/squaregain/static/media/Emma_KnightStrong_PNG.8f487e1e.png",
+    "static/media/FISP_PNG.af14824b.png": "/squaregain/static/media/FISP_PNG.af14824b.png",
+    "static/media/Greg Chant-Hall2.5dfa5d5c.jpg": "/squaregain/static/media/Greg Chant-Hall2.5dfa5d5c.jpg",
+    "static/media/Greg Poole.448745ba.jpg": "/squaregain/static/media/Greg Poole.448745ba.jpg",
+    "static/media/LedNet.831f8359.png": "/squaregain/static/media/LedNet.831f8359.png",
+    "static/media/LondonCouncils.ca4aad12.png": "/squaregain/static/media/LondonCouncils.ca4aad12.png",
+    "static/media/MarkThomas.6eb625b4.jpg": "/squaregain/static/media/MarkThomas.6eb625b4.jpg",
+    "static/media/Martin Gibson.c5589277.jpg": "/squaregain/static/media/Martin Gibson.c5589277.jpg",
+    "static/media/NHS.16b2a985.png": "/squaregain/static/media/NHS.16b2a985.png",
+    "static/media/PRI logo_PNG.1f074e4d.png": "/squaregain/static/media/PRI logo_PNG.1f074e4d.png",
+    "static/media/Philippa Gill.22d5b508.jpg": "/squaregain/static/media/Philippa Gill.22d5b508.jpg",
+    "static/media/Steve Borncamp.add89df6.jpg": "/squaregain/static/media/Steve Borncamp.add89df6.jpg",
+    "static/media/TowerHamlets.d7d47001.png": "/squaregain/static/media/TowerHamlets.d7d47001.png",
+    "static/media/actuaries.a3c8ca70.png": "/squaregain/static/media/actuaries.a3c8ca70.png",
+    "static/media/erm.6a32ddd0.png": "/squaregain/static/media/erm.6a32ddd0.png",
+    "static/media/martin hunt.b9bfe9ad.jpg": "/squaregain/static/media/martin hunt.b9bfe9ad.jpg",
+    "static/media/networkrail.1eef8203.png": "/squaregain/static/media/networkrail.1eef8203.png",
+    "static/media/pexels-yoss-cinematic-2564153.7af380ef.jpg": "/squaregain/static/media/pexels-yoss-cinematic-2564153.7af380ef.jpg",
+    "static/media/sam hall.b901775c.jpg": "/squaregain/static/media/sam hall.b901775c.jpg",
+    "static/media/swale.85f363e4.png": "/squaregain/static/media/swale.85f363e4.png",
+    "static/media/uniKent.48c228d9.png": "/squaregain/static/media/uniKent.48c228d9.png",
+    "static/media/upp.f4862356.png": "/squaregain/static/media/upp.f4862356.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.25470bd7.js",
+    "static/js/2.3723b7d4.chunk.js",
+    "static/js/main.ddeb3a3f.chunk.js"
+  ]
+}
