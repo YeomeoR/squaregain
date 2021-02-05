@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/squaregain/static/js/main.9d506e42.chunk.js",
-    "main.js.map": "/squaregain/static/js/main.9d506e42.chunk.js.map",
+    "main.js": "/squaregain/static/js/main.ab8ffdf5.chunk.js",
+    "main.js.map": "/squaregain/static/js/main.ab8ffdf5.chunk.js.map",
     "runtime-main.js": "/squaregain/static/js/runtime-main.25470bd7.js",
     "runtime-main.js.map": "/squaregain/static/js/runtime-main.25470bd7.js.map",
     "static/js/2.3723b7d4.chunk.js": "/squaregain/static/js/2.3723b7d4.chunk.js",
@@ -30,6 +30,6 @@
   "entrypoints": [
     "static/js/runtime-main.25470bd7.js",
     "static/js/2.3723b7d4.chunk.js",
-    "static/js/main.9d506e42.chunk.js"
+    "static/js/main.ab8ffdf5.chunk.js"
   ]
 }
