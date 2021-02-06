@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/squaregain/static/js/main.ea49ed33.chunk.js",
-    "main.js.map": "/squaregain/static/js/main.ea49ed33.chunk.js.map",
+    "main.js": "/squaregain/static/js/main.cd0ff204.chunk.js",
+    "main.js.map": "/squaregain/static/js/main.cd0ff204.chunk.js.map",
     "runtime-main.js": "/squaregain/static/js/runtime-main.25470bd7.js",
     "runtime-main.js.map": "/squaregain/static/js/runtime-main.25470bd7.js.map",
-    "static/js/2.42ed5771.chunk.js": "/squaregain/static/js/2.42ed5771.chunk.js",
-    "static/js/2.42ed5771.chunk.js.map": "/squaregain/static/js/2.42ed5771.chunk.js.map",
+    "static/js/2.611609ec.chunk.js": "/squaregain/static/js/2.611609ec.chunk.js",
+    "static/js/2.611609ec.chunk.js.map": "/squaregain/static/js/2.611609ec.chunk.js.map",
     "static/js/3.62b75f5a.chunk.js": "/squaregain/static/js/3.62b75f5a.chunk.js",
     "static/js/3.62b75f5a.chunk.js.map": "/squaregain/static/js/3.62b75f5a.chunk.js.map",
     "index.html": "/squaregain/index.html",
-    "static/js/2.42ed5771.chunk.js.LICENSE.txt": "/squaregain/static/js/2.42ed5771.chunk.js.LICENSE.txt",
+    "static/js/2.611609ec.chunk.js.LICENSE.txt": "/squaregain/static/js/2.611609ec.chunk.js.LICENSE.txt",
     "static/media/Emma_KnightStrong_PNG.8f487e1e.png": "/squaregain/static/media/Emma_KnightStrong_PNG.8f487e1e.png",
     "static/media/FISP_PNG.af14824b.png": "/squaregain/static/media/FISP_PNG.af14824b.png",
     "static/media/Greg Chant-Hall2.5dfa5d5c.jpg": "/squaregain/static/media/Greg Chant-Hall2.5dfa5d5c.jpg",
@@ -29,7 +29,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.25470bd7.js",
-    "static/js/2.42ed5771.chunk.js",
-    "static/js/main.ea49ed33.chunk.js"
+    "static/js/2.611609ec.chunk.js",
+    "static/js/main.cd0ff204.chunk.js"
   ]
 }
