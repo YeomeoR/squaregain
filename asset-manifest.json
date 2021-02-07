@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/squaregain/static/js/main.2d4660ca.chunk.js",
-    "main.js.map": "/squaregain/static/js/main.2d4660ca.chunk.js.map",
+    "main.js": "/squaregain/static/js/main.c27162c9.chunk.js",
+    "main.js.map": "/squaregain/static/js/main.c27162c9.chunk.js.map",
     "runtime-main.js": "/squaregain/static/js/runtime-main.9e5f6e73.js",
     "runtime-main.js.map": "/squaregain/static/js/runtime-main.9e5f6e73.js.map",
     "static/js/2.611609ec.chunk.js": "/squaregain/static/js/2.611609ec.chunk.js",
@@ -17,6 +17,7 @@
     "static/media/TowerHamlets.d7d47001.png": "/squaregain/static/media/TowerHamlets.d7d47001.png",
     "static/media/actuaries.a3c8ca70.png": "/squaregain/static/media/actuaries.a3c8ca70.png",
     "static/media/erm.6a32ddd0.png": "/squaregain/static/media/erm.6a32ddd0.png",
+    "static/media/lwarb.9e1c5bab.png": "/squaregain/static/media/lwarb.9e1c5bab.png",
     "static/media/networkrail.1eef8203.png": "/squaregain/static/media/networkrail.1eef8203.png",
     "static/media/pexels-bill-emrich-230794.46034342.jpg": "/squaregain/static/media/pexels-bill-emrich-230794.46034342.jpg",
     "static/media/pexels-yoss-cinematic-2564153.7af380ef.jpg": "/squaregain/static/media/pexels-yoss-cinematic-2564153.7af380ef.jpg",
@@ -27,6 +28,6 @@
   "entrypoints": [
     "static/js/runtime-main.9e5f6e73.js",
     "static/js/2.611609ec.chunk.js",
-    "static/js/main.2d4660ca.chunk.js"
+    "static/js/main.c27162c9.chunk.js"
   ]
 }
